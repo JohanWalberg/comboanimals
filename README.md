@@ -6,5 +6,9 @@ application up and running.
 Things you may want to cover:
 
 * Combo! >trdying REPO!
+* 
+# Start Server
+
+rails s -b $IP -p $PORT
 
 
