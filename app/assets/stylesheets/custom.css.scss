@@ -3,6 +3,8 @@ $navbar-default-bg: #21324f;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "footer";
+@import "backgroundvideo";
+@import "mobile";
 .center {
   text-align: center;
 }
@@ -33,17 +35,7 @@ $navbar-default-bg: #21324f;
   color: grey;
   text-decoration:none;
 }
-// BACKGROUNDVIDEO
-.video {
- position: fixed;
- top: 50%; left: 50%;
- z-index: -1;
- //min-width: 100%;
- //min-height: 100%;
- width: auto;
- height: auto;
- transform: translate(-50%, -50%);
-}
+
 .btn-xlarge {
   background-color:#21324f;
   border-color: #21324f;

@@ -1,0 +1,28 @@
+
+@media only screen and (max-width: 1000px) {
+    .video {
+        display: none;
+    }
+    .video-mobile {
+      display: block;
+       position: fixed;
+ top: 50%; left: 50%;
+ z-index: -1;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ transform: translate(-50%, -50%);
+    }
+    .index-box {
+      color: #728bb7;
+    }
+    .index-content-box {
+      border-radius: 10px;
+      padding-bottom: 10px;
+      background: rgba(0, 0, 0, 0.7);
+    }
+    .index-box-text {
+      color: #fff;
+    }
+}
