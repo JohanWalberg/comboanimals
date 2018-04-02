@@ -9,9 +9,11 @@
   </head>
 
   <body>
+    <%= video_tag "tiger.mp4", autoplay: :autoplay, loop: :loop, mute: :mute, class: "video" %>
     <%= render 'layouts/navigation' %>
     <div class="container">
       <%= yield %>
-    </div>  
+    </div>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
